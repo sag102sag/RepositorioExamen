@@ -9,13 +9,5 @@ super(identificadorInmobiliario, área, dirección,
 númeroHabitaciones, númeroBaños);
 this.númeroPisos = númeroPisos;
 }
-/*
- * Método que muestra en pantalla los datos de una casa
- */
-void imprimir()
-{
-	super.imprimir(); // Invoca al método para imprimir de la clase padre
-	
-	System.out.println("número de pisos = "+ númeroPisos);
-}
+
 }
