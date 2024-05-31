@@ -16,11 +16,5 @@ númeroHabitaciones, númeroBaños, númeroPisos);
 this.distanciaCabera = distanciaCabera;
 this.altitud = altitud;
 }
-void imprimir()
-{
-	super.imprimir();
-	System.out.println("Distancia la cab munic = " + númeroHabitaciones + " km ");
-	System.out.println("Altitud = "+ altitud + "metros.");
-	System.out.println();
-}
+
 }
